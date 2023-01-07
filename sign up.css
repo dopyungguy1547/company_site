@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  margin: 0;
+  margin-top: auto;
+  background-color: #000032;
+}
+
+.nav {
+  height: 70px;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #0000325d;
+}
+.nav-title {
+  margin: 35px;
+  font-weight: bolder;
+}
+.nav-item {
+  font-weight: bold;
+  margin: 20px;
+}
+.items {
+  display: flex;
+  margin-left: auto;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.sign_form {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  background-color: #eeeff1;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.submit-btn {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #000032;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+}
+
+.text-field {
+  font-size: 14px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.submit-btn:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links a {
+  font-size: 12px;
+}
+

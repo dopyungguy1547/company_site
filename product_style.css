@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  background-color: #000032;
+}
+
+.nav {
+  height: 70px;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.nav-title {
+  margin: 35px;
+  font-weight: bolder;
+}
+.nav-item {
+  font-weight: bold;
+  margin: 20px;
+}
+.items {
+  display: flex;
+  margin-left: auto;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.title {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+.subtitle {
+  text-align: center;
+  font-size: 35px;
+  font-weight: lighter;
+  margin: 0 auto;
+  color: white;
+}
+.main {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-top: 60px;
+}
+.price-item {
+  width: 300px;
+  height: 300px;
+  border: 1px solid white;
+  margin: 7.5px;
+  border-radius: 5px;
+}
+.price {
+  display: flex;
+}
+.price-item-title {
+  background-color: #bdbdbd;
+  height: 53px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 53px;
+}
+.price-item-price {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 20px;
+  color: white;
+}
+.price-item-buy {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  padding: 11px 36px;
+  color: black;
+  box-shadow: 0px 5px 0px 0px rgba(255, 255, 255, 0.5);
+}
+
+.price-item-buy:active {
+  box-shadow: none;
+  margin-top: 5px;
+  border: 1px solid transparent;
+}
+
+.price-item-explain {
+  font-weight: unset;
+  text-align: center;
+  color: white;
+}
